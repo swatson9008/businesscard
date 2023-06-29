@@ -24,7 +24,7 @@ a:hover {
 }
 
 body {
-  background-color: aliceblue;
+  background-color:#13202b;
   margin: 0;
   display: flex;
   place-items: center;
@@ -33,8 +33,84 @@ body {
 }
 
 main {
-  background-color: #d3d1d1;
+  background-color: #ececec;
   width: 400px;
+  border-radius: 10px;
+}
+
+.Title {
+  color: #df8d31;
+  font-size: 0.9rem;
+  margin-top: -15px;
+  font-weight: bold;
+}
+
+.InfoBox {
+  width: fit-content;
+  text-align: center;
+}
+
+.infoCenter {
+  margin: 40px;
+}
+
+.Photo img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.buttonSpace {
+  padding: 20px;
+  /*display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-content: space-around;
+  align-items: flex-start;
+  flex-direction: row;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.Email, .LinkedIn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.LinkedIn {
+  background-color: #297fe5;
+  color:#ffffff;
+  justify-content: space-around;
+}
+
+.Email img, .LinkedIn img {
+  width: 15px;
+}
+
+.aboutBox {
+  margin: 40px;
+}
+
+.aboutDescription, .interestDescription {
+  margin-top: -10px;
+  font-size: 0.9rem;
+}
+
+.socialMediaBox {
+  text-align: center;
+  background-color: #bebebe;
+}
+
+.smIcons {
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.smIcons IMG {
+  width: 35px
 }
 
 h1 {
@@ -44,7 +120,7 @@ h1 {
 
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 1px solid rgb(185, 185, 185);
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -54,7 +130,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #070707;
 }
 button:focus,
 button:focus-visible {
