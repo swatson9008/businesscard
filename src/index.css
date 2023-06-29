@@ -51,7 +51,7 @@ main {
 }
 
 .infoCenter {
-  margin: 40px;
+  margin: 30px;
 }
 
 .Photo img {
@@ -94,7 +94,7 @@ main {
   margin-left: 40px;     
   margin-right: 40px;    
   margin-bottom: 40px; 
-  margin-top: -30px; 
+  margin-top: -20px; 
 }
 
 .aboutDescription, .interestDescription {
