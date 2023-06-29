@@ -32,6 +32,11 @@ body {
   min-height: 100vh;
 }
 
+main {
+  background-color: #d3d1d1;
+  width: 400px;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
