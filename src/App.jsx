@@ -11,6 +11,7 @@ function App() {
       <Info />
       <About />
       <SocialMedia />
+      
     </main>
   )
 }
